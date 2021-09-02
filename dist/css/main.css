@@ -40,7 +40,7 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #a6b6e9;
+    background: #4e73e0;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
@@ -60,13 +60,13 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: #set-text-color #bac7ee;
+    color: #set-text-color #6484e4;
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
       color: #ee8b1a; }
   .menu-branding {
-    background: #bac7ee;
+    background: #6484e4;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -95,7 +95,7 @@
   box-sizing: border-box; }
 
 body {
-  background: #bac7ee;
+  background: #6484e4;
   color: #000;
   height: 100%;
   margin: 0;
@@ -113,7 +113,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(186, 199, 238, 0.9); }
+      background: rgba(100, 132, 228, 0.9); }
 
 h1,
 h2,
@@ -128,7 +128,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(194, 206, 240, 0.5); }
+    background: rgba(109, 139, 230, 0.5); }
 
 a {
   color: #fff;
@@ -179,7 +179,7 @@ main {
   .about-info .job-3 {
     grid-area: job-3; }
   .about-info .job {
-    background: #ced8f3;
+    background: #7a95e8;
     padding: 0.5rem;
     border-bottom: solid 5px #ee8b1a; }
 
@@ -195,6 +195,27 @@ main {
       opacity: 0.5;
       transition: all 0.5s ease-out; }
 
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem; }
+  .boxes div {
+    font-size: 2rem;
+    border: solid 3px #fff;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+    transition: all 0.5s ease-out; }
+    .boxes div:hover {
+      padding: 0.5rem 1.5rem;
+      background: #ee8b1a;
+      color: #000; }
+      .boxes div:hover span {
+        color: #000; }
+    .boxes div span {
+      margin-right: 1rem; }
+
 .btn, .btn-dark, .btn-light {
   display: block;
   padding: 0.5rem 1rem;
@@ -205,7 +226,7 @@ main {
     color: #000; }
 
 .btn-dark {
-  background: #213b88;
+  background: #0b183e;
   color: #fff; }
 
 .btn-light {
@@ -215,7 +236,7 @@ main {
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #91a6e4;
+  background: #3962dc;
   color: #000;
   height: 60px; }
 
