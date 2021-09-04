@@ -44,7 +44,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
+  opacity:1;
   visibility: hidden;
 
   &.show {
@@ -96,8 +96,8 @@
     position: relative;
     font-size: 30px;
     text-transform: uppercase;
-    padding: 1rem 0;
-    font-weight: 300;
+    padding: 8px 0;
+    font-weight: 400;
     color: #set-text-color($primary-color);
     text-decoration: none;
     @include easeOut;
