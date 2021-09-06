@@ -1,3 +1,6 @@
+// Handlebars partials
+
+
 // Select DOM Items
 
 const menuBtn = document.querySelector('.menu-btn');
@@ -12,7 +15,7 @@ let showMenu = false;
 
 menuBtn.addEventListener('click', toggleMenu);
 
-function toggleMenu(){
+function toggleMenu() {
     if (!showMenu) {
         menuBtn.classList.add('close');
         menu.classList.add('show');
@@ -32,3 +35,4 @@ function toggleMenu(){
         showMenu = false;
     }
 }
+
