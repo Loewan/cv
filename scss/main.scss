@@ -19,7 +19,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h6 {
   margin: 0;
 
   &.lg-heading {
@@ -92,6 +93,11 @@ main {
 
   .bio {
     grid-area: bio;
+
+    .skills {
+      list-style-type: none;
+      padding-left: 0;
+    }
   }
 
   .job-1 {
@@ -108,6 +114,10 @@ main {
     background: lighten($primary-color, 5);
     padding: 0.5rem;
     border-bottom: solid 5px $secondary-color;
+
+    a{
+      color: $secondary-color;
+    }
   }
 }
 
@@ -157,6 +167,13 @@ main {
       margin-right: 1rem;
     }
   }
+}
+
+#contact-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 // Buttons
