@@ -117,15 +117,18 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h6 {
   margin: 0; }
   h1.lg-heading,
   h2.lg-heading,
-  h3.lg-heading {
+  h3.lg-heading,
+  h6.lg-heading {
     font-size: 6rem; }
   h1.sm-heading,
   h2.sm-heading,
-  h3.sm-heading {
+  h3.sm-heading,
+  h6.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     background: rgba(0, 37, 73, 0.5); }
@@ -172,6 +175,9 @@ main {
     border: solid 3px #ADEFD1; }
   .about-info .bio {
     grid-area: bio; }
+    .about-info .bio .skills {
+      list-style-type: none;
+      padding-left: 0; }
   .about-info .job-1 {
     grid-area: job-1; }
   .about-info .job-2 {
@@ -182,6 +188,8 @@ main {
     background: #002d59;
     padding: 0.5rem;
     border-bottom: solid 5px #ADEFD1; }
+    .about-info .job a {
+      color: #ADEFD1; }
 
 .projects {
   display: grid;
@@ -215,6 +223,12 @@ main {
         color: #000; }
     .boxes div span {
       margin-right: 1rem; }
+
+#contact-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
 
 .btn, .btn-dark, .btn-light {
   display: block;
